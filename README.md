@@ -7,7 +7,7 @@ influence certain functional requirements.\
 **3)** This extension allows the architect to specify the goal, task or resource that demands a certain specific softgoal. This requirement is represented by using new notation **_demands_**.
 
    ![](https://github.com/GRL2APK/XtGRL/blob/master/images/img1.PNG)\
-In the above image a snapshot of the modified grammar is presented where we incorporated the notion of *_Softgoal_* by introducing  **_NFR Softgoals_(NFR_SGoal)_*, *_Operationalization softgoals(Op_SGoal)_** and **_Clain softgoals_(Claim_SGoal)**
+In the above image a snapshot of the modified grammar is presented where we incorporated the notion of *_Softgoal_* by introducing  **_NFR Softgoals(NFR_SGoal)_*, *_Operationalization softgoals(Op_SGoal)_** and **_Clain softgoals_(Claim_SGoal)**
    ![](https://github.com/GRL2APK/XtGRL/blob/master/images/img2.PNG)\
 In this snapshot of the grammar we incorporated the notion of demands for a specific Goal, Task or Resource using the notation **_demands_**.\
 Some typical examples of represent your own Goal Model using xtGRL are presented in *_/examples/_* folder.\
