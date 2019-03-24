@@ -6,5 +6,5 @@ influence certain functional requirements.\
 **2)** Notion of *_Operationalization softgoals_* and *_Clain softgoals_* are introduced that are used to specify NFR catalogs.\
 **3)** This extension allows the architect to specify the goal, task or resource that demands a certain specific softgoal. This requirement is represented by using new notation *_demands_*.
 
-   ![](XtGRL/images/img1.PNG)
+   ![](https://github.com/GRL2APK/XtGRL/blob/master/images/img1.PNG)
       
