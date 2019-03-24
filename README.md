@@ -6,8 +6,11 @@ influence certain functional requirements.\
 **2)** Notion of *_NFR Softgoals_* *_Operationalization softgoals_* and *_Clain softgoals_* are introduced that are used to specify NFR catalogs.\
 **3)** This extension allows the architect to specify the goal, task or resource that demands a certain specific softgoal. This requirement is represented by using new notation *_demands_*.
 
-   ![](https://github.com/GRL2APK/XtGRL/blob/master/images/img1.PNG)
+   ![](https://github.com/GRL2APK/XtGRL/blob/master/images/img1.PNG)\
 In the above image a snapshot of the modified grammar is presented where we incorporated the notion of *_Softgoal_* by introducing  *_NFR Softgoals_(NFR_SGoal)* *_Operationalization softgoals_(Op_SGoal)* and *_Clain softgoals_(Claim_SGoal)*
-   ![](https://github.com/GRL2APK/XtGRL/blob/master/images/img2.PNG)
+   ![](https://github.com/GRL2APK/XtGRL/blob/master/images/img2.PNG)\
+In this snapshot of the grammar we incorporated the notion of demands for a specific Goal, Task or Resource using the notation *_demands_*.\
+A typical example of writing your own Goal Model is presented in *_/examples/_* folder.\
+The grammar for the XtGRL is given in *_/grammar/_* folder and a guide is given in that folder in order to integrate with the Eclipse platform.
    
       
