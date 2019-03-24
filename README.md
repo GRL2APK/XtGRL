@@ -3,8 +3,11 @@ Extended textual Goal-oriented Requirements Language is the extended edition of 
 Extensions in the Grammar are described as follows.\
 **1)** It also has the notion of a *_Softgoal_* that allows enterprise architects to only specify high level NFRs that
 influence certain functional requirements.\
-**2)** Notion of *_Operationalization softgoals_* and *_Clain softgoals_* are introduced that are used to specify NFR catalogs.\
+**2)** Notion of *_NFR Softgoals_* *_Operationalization softgoals_* and *_Clain softgoals_* are introduced that are used to specify NFR catalogs.\
 **3)** This extension allows the architect to specify the goal, task or resource that demands a certain specific softgoal. This requirement is represented by using new notation *_demands_*.
 
    ![](https://github.com/GRL2APK/XtGRL/blob/master/images/img1.PNG)
+In the above image a snapshot of the modified grammar is presented where we incorporated the notion of *_Softgoal_* by introducing  *_NFR Softgoals_(NFR_SGoal)* *_Operationalization softgoals_(Op_SGoal)* and *_Clain softgoals_(Claim_SGoal)*
+   ![](https://github.com/GRL2APK/XtGRL/blob/master/images/img2.PNG)
+   
       
