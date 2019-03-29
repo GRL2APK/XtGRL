@@ -229,7 +229,7 @@ Claim_SGoal:
 ;
 
 NormalElementLink:
-	NormalDecomposition | NormalDependency | NormalDemand
+	NormalDecomposition | NormalDependency | NormalDemand | NormalCTL
 ;
 
 NormalDependency:
@@ -251,7 +251,9 @@ NFRDecomposition:
 NormalDemand:
 	src=[IntentionalElement | QualifiedName] 'demands' dest+=DemandEnd  (','dest+=DemandEnd)* ';'
 ;
-
+NormalCTL:
+	'ctl' (ctl+=CTL)
+;
 InLineElementLink:
 	InLineDecomposition | InLineDependency | InLineDemand
 ;
@@ -334,7 +336,12 @@ Metadata:
 	'metadata' name = ID '=' value=STRING ';'	
 ;
 
-
+CTL:
+	variables=Variables
+;
+Variables:
+	value=STRING
+;
 enum ImportanceType: 
 	 None = 'none'  | High = 'high'  | Medium = 'medium' | Low = 'low'
 ;
