@@ -345,9 +345,10 @@ Variables:
 enum ImportanceType: 
 	 None = 'none'  | High = 'high'  | Medium = 'medium' | Low = 'low'
 ;
-enum DecompositionType:
-	and| or  | xor  
+DecompositionType:
+	value=STRING 
 ;
+
 
 enum ContributionType: 
 	help | make | somePositive  |
